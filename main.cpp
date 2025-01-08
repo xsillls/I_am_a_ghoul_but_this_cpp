@@ -7,7 +7,7 @@ using namespace std;
 
 void ghoul()
 {
-	int namber = 993;
+	int namber = 994;
 
 	while (namber > 1)
 	{
