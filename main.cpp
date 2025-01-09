@@ -7,7 +7,7 @@ using namespace std;
 
 void ghoul()
 {
-	int namber = 994;
+	int namber = 993;
 
 	while (namber > 1)
 	{
@@ -17,9 +17,25 @@ void ghoul()
 	}
 }
 
+void massage()
+{
+	cout << " то €";
+	cin.get();
+	cout << "я";
+	for (int ii = 0; ii < 10; ii++)
+	{
+		cout << ".";
+		Sleep(80);
+	}
+	cout << endl;
+	cout << "√уль" << endl;
+	Sleep(400);
+}
+
 int main()
 {
 	setlocale(LC_ALL, "ru");
+	massage();
 	ghoul();
 
 	return 0;
