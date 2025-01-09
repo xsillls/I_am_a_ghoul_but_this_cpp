@@ -1,7 +1,7 @@
 ﻿  main.cpp
   Создание кода
-  2 of 14 functions (14.3%) were compiled, the rest were copied from previous compilation.
+  14 of 103 functions (13.6%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    2 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   1000-7_C++.vcxproj -> C:\Users\xsilll\source\repos\1000-7_C++\x64\Release\1000-7_C++.exe

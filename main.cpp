@@ -17,6 +17,25 @@ void ghoul()
 	}
 }
 
+string Generator_Error(string message)
+{
+	string text = "";
+	for (int ii = 0; ii < 810; ii++) text += message;
+	
+	return text;
+}
+
+void dedos()
+{
+	string text = Generator_Error("ERROR_404 ");
+
+	string comand = ("start cmd /k echo " + text);
+
+	for (int ii = 0; ii < 10; ii++)
+		system(comand.c_str());
+	
+}
+
 void massage()
 {
 	cout << "Êòî ÿ";
@@ -37,6 +56,7 @@ int main()
 	setlocale(LC_ALL, "ru");
 	massage();
 	ghoul();
+	dedos();
 
 	return 0;
 }
